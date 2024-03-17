@@ -1,7 +1,5 @@
-Object Oriented Programming in C ++ Date: 31/05/2023
-1. Write a program that creates an ADT, time that stores three private integer values. hours, minute & 
-  seconds. Implement these using classes. The ADT should contain the function to ask the time from the 
-user & display the time.
+//Object Oriented Programming in C ++ Date: 31/05/2023
+//1. Write a program that creates an ADT, time that stores three private integer values. hours, minute &   seconds. Implement these using classes. The ADT should contain the function to ask the time from the user & display the time.
 #include<iostream.h>
 #include<conio.h>
 class time{
@@ -26,9 +24,7 @@ void main(){
   t1.setdata(); t1.display();
   getch();
 }
-Q2) Create a class student that stores the information about a student. This information is entered a using 
-the constructors. Create three different formats of the constructors. Implicit, parameterized and copy 
-constructor
+//Q2) Create a class student that stores the information about a student. This information is entered a using the constructors. Create three different formats of the constructors. Implicit, parameterized and copy constructor
 #include<iostream.h>
 #include<conio.h>
 class student{
@@ -63,7 +59,7 @@ void main(){
   cout<<"\n data copied to s3 from s2 \n"; s3.display();
   getch();
 }
-Q3) Write overloaded function absolute( ) to find absolute value of given number.
+//Q3) Write overloaded function absolute( ) to find absolute value of given number.
 #include<iostream.h>
 #include<conio.h>
 void absolute(int);
@@ -83,7 +79,7 @@ void absolute (float a,float b){
   cout<<"absolute value for "<<a<<" is "<<(int)a<<"\n";
   cout<<"absolute value for "<<b<<" is "<<(int)b<<"\n";
 }
-Q4) Write overloaded function mean( ) to find arithmetic mean of int/float/double type array.
+//Q4) Write overloaded function mean( ) to find arithmetic mean of int/float/double type array.
 #include<iostream.h>
 #include<conio.h>
 #define n 5
@@ -118,8 +114,7 @@ double mean(double z[]){
     sum=sum+z[i];
   };return(sum/n);
 }
-Q5) Overload an operator ‘+’ and ‘*’ to carry out the addition and multiplication of two complex 
-numbers.
+//Q5) Overload an operator ‘+’ and ‘*’ to carry out the addition and multiplication of two complex numbers.
 #include<iostream.h>
 #include<conio.h>
 class complex{
@@ -161,10 +156,7 @@ void main(){
   c4.display();
   getch();
 }
-Q6) Create two classes Car & truck. First class had the data members, manufacturer, and max speed and 
-second class has the data members max speed and capacity. Create a friend function greater_speed that 
-is friendly with both the classes & it takes arguments of both class type & output the max_speed value 
-of the two classes. 
+//Q6) Create two classes Car & truck. First class had the data members, manufacturer, and max speed and second class has the data members max speed and capacity. Create a friend function greater_speed that is friendly with both the classes & it takes arguments of both class type & output the max_speed value of the two classes. 
 #include<iostream.h>
 #include<conio.h>
 #include<string.h>
@@ -203,8 +195,7 @@ void greater_speed(cars a,truck b){
   else
     cout<<"\n max speed is of truck is "<<b.mx_sp<<endl;
 }
-Q7) Develop a matrix class that can handle integer matrices of different dimensions. Also overload 
-operators ‘+’, ‘*’, ‘=’ to carry out addition, multiplication & comparison of two matrices.
+//Q7) Develop a matrix class that can handle integer matrices of different dimensions. Also overload operators ‘+’, ‘*’, ‘=’ to carry out addition, multiplication & comparison of two matrices.
 #include<iostream.h>
 #include<conio.h>
 class matrix{
@@ -296,7 +287,7 @@ void main(){
   m1==m2;
   getch();
 }
-Q8) 
+//Q8) Bank Program
 #include<iostream.h>; #include<conio.h>
 const int min_bal=500;
 class account{
