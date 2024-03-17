@@ -50,3 +50,24 @@ Q7) Q7) Develop a matrix class that can handle integer matrices of different dim
 operators ‘+’, ‘*’, ‘=’ to carry out addition, multiplication & comparison of two matrices.
 
 Q8) Bank Program to Account credit, debit and showing bank balance.
+
+
+#In CPP-Code-1 following tasks are done:
+
+Q1) Write a program to implement Linked list.
+
+Q2) Write a program to accept and store names of students in singly linked list.
+
+Q3)Write a program that reads and store the gender(M,F), age, and salary of employee using linked list.
+
+Q4) Write a program to implement Stack as an array.
+
+Q5) Write a program to implement Queue as an array.
+
+Q6) Write a program to implement circular queue as an array.
+
+Q7)Write a program to implement Stack as a linked list.
+
+Q8) Write a program to implement Queue as a linked list.
+
+
