@@ -1,4 +1,4 @@
-#Q1) Write a C++ program to calculate factorial of given numbers.
+//#Q1) Write a C++ program to calculate factorial of given numbers.
 #include<iostream.h>
 #include<conio.h>
 long int fact(int);
@@ -16,8 +16,9 @@ long int fact(int num){
     y=num*fact(num-1);
   return(y);
 }
-Q2) Write a C++ programs for the following pyramids.
-I) #include<iostream.h>;
+//Q2) Write a C++ programs for the following pyramids.
+//I) 
+#include<iostream.h>;
 #include<conio.h>
 void main(){
   for(int i=0;i<5;i++){
@@ -28,7 +29,8 @@ void main(){
   }
   getch();
 }
-II) #include<iostream.h>
+//II) 
+#include<iostream.h>
 #include<conio.h>
 void main(){
   clrscr();
@@ -40,7 +42,8 @@ void main(){
   }
   getch();
 }
-III) #include<iostream.h>
+//III) 
+#include<iostream.h>
 #include<conio.h>
 void main(){
   char arr[5]={'A','B','C','D','E'};
@@ -52,7 +55,8 @@ void main(){
   }
   getch();
 }
-IV) #include<iostream.h>
+//IV) 
+#include<iostream.h>
 #include<conio.h>
 int main()
 {
@@ -68,7 +72,8 @@ int main()
   getch();
   return 0;
 }
-V) #include<iostream.h>
+//V) 
+#include<iostream.h>
 #include<conio.h>
 void main(){
   clrscr();
@@ -80,7 +85,8 @@ void main(){
   }
   getch();
 }
-VI) #include<iostream.h>
+//VI) 
+#include<iostream.h>
 #include<conio.h>
 void main(){
   clrscr();
@@ -105,7 +111,7 @@ void main(){
   }
   getch();
 }
-Q3) Write a C++ program to accept numbers and print even numbers among them.
+//Q3) Write a C++ program to accept numbers and print even numbers among them.
 #include<iostream.h>
 #include<conio.h>
 void main(){
@@ -126,8 +132,8 @@ void main(){
   }
   getch();
 }
-Q4) Write a program to check whether given number is prime or not. 
-Extend the above program to calculate the mean and variance on prime numbers between 101 to 200.
+//Q4) Write a program to check whether given number is prime or not. 
+//Extend the above program to calculate the mean and variance on prime numbers between 101 to 200.
 #include<iostream.h>
 #include<conio.h>
 int prime (int);
@@ -158,8 +164,7 @@ int prime (int num){
     if(flag>2) return (0);
     else return 8;
   }}
-Q6) Write a program to obtain N random numbers from Binomial, Poisson, Negative binomial, 
-Hypergeometric and Multinomial distribution
+//Q6) Write a program to obtain N random numbers from Binomial, Poisson, Negative binomial, Hypergeometric and Multinomial distribution
 #include<stdio.h>
 #include<iostream.h>
 #include<conio.h>
@@ -274,8 +279,7 @@ void copy(int *p,int *q, int n){
   for(int i=0;i<n;i++){
     *(q+i)=*(p+i);
   }}
-Q7) Write a C++ Program to find mean, variance of two variables separately and calculate covariance, 
-correlation coefficient between two variables.
+//Q7) Write a C++ Program to find mean, variance of two variables separately and calculate covariance, correlation coefficient between two variables.
 #include<stdio.h>
 #include<conio.h>
 #include<iostream.h>
@@ -310,8 +314,7 @@ void main(){
   cout<<"correlation:"<<"\t\t"<<corr;
   getch();
 }
-Q8.Write a C++ program to accept two matrices and print their addition and 
-multiplication.
+//Q8.Write a C++ program to accept two matrices and print their addition and multiplication.
 #include<iostream.h>
 #include<conio.h>
 int main()
@@ -371,13 +374,8 @@ int main()
   getch();
   return 0;
 }
-Q9) 9.Write a C++ program to evaluate ∫ 𝐱
-𝟐
-𝟏𝟎
-𝟎
-𝐝𝐱 by trapezoidal, Simpsons 1/3rd and 
-Simpsons 3/8th rule .
-1) Trapezoidal Method
+//Q9) Write a C++ program to evaluate ∫ 𝐱^𝟐 𝐝𝐱 limit from 0 to 10 by trapezoidal, Simpsons 1/3rd and Simpsons 3/8th rule .
+//1) Trapezoidal Method
 #include<iostream.h>
 #include<conio.h>
 #include<math.h>
@@ -423,7 +421,7 @@ int main()
   getch();
   return 0;
 }
-2) Simpsons 1/3rd Rule
+//2) Simpsons 1/3rd Rule
 #include<iostream.h>
 #include<conio.h>
 #include<math.h>
@@ -476,7 +474,7 @@ int main()
   getch();
   return 0;
 }
-3) Simpsons 3/8th rule 
+//3) Simpsons 3/8th rule 
 #include<iostream.h>
 #include<conio.h>
 #include<math.h>
@@ -530,10 +528,7 @@ int main()
   return 0;
 }
 
-Q10) Write a C++ program to approximate the root of the equation x
-3 + 2x
-2 − 3 = 0 using Bisection 
-method, Regula-Falsi method and Newton-Raphson method.
+//Q10) Write a C++ program to approximate the root of the equation x^3 + 2x^2 − 3 = 0 using Bisection method, Regula-Falsi method and Newton-Raphson method.
 #include<iostream.h>
 #include<conio.h>
 #include<math.h>
